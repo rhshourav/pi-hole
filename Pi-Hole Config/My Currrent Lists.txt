@@ -1,0 +1,71 @@
+## 1. Migrated from /etc/pihole/adlists.list
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+## 2. Add Way Block LIst
+https://adaway.org/hosts.txt
+
+## 3. PolishFiltersTeam
+https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
+
+## 4. FadeMind / hosts.extras
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
+
+## 5. WaLLy3K (w3kbl)
+https://v.firebog.net/hosts/static/w3kbl.txt
+
+## 6. AdGuard
+https://v.firebog.net/hosts/AdguardDNS.txt
+
+## 7. Admiral
+https://v.firebog.net/hosts/Admiral.txt
+
+## 8. EasyPrivacy
+https://v.firebog.net/hosts/Easyprivacy.txt
+
+## 9. Prigent
+https://v.firebog.net/hosts/Prigent-Ads.txt
+
+## 10. AnudeepND
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+
+## 11. OISD Full
+https://big.oisd.nl/
+
+## 12. WindowsSpyBlocker
+https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+
+## 13. GoodbyeAds (mobile apps focus)
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+
+## 14. Threat Intelligence Feeds
+https://v.firebog.net/hosts/Prigent-Malware.txt
+
+## 15. CyberCrime Blocklist
+https://cybercrime-tracker.net/all.php
+
+## 16. NoTracking
+https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt
+
+## 17. Dandelion Sprout Anti-Malware List
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
+
+## 18. Perflyst Android AdBlock
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+
+## 19. Facebook & Instagram Tracking
+https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all
+
+## 20. Phishing Army Blocklist
+https://phishing.army/download/phishing_army_blocklist_extended.txt
+
+## 21. Anti-Phishing Working Group
+https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt
+
+## 22. NoCoin Adblock Host List
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+
+## 23. EasyList China
+https://easylist-downloads.adblockplus.org/easylistchina.txt
+
+## 24. EasyList DE (German)
+https://easylist-downloads.adblockplus.org/easylistgermany.txt
