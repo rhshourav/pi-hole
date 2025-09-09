@@ -70,14 +70,14 @@ https://easylist-downloads.adblockplus.org/easylistchina.txt
 ## 24. EasyList DE (German)
 https://easylist-downloads.adblockplus.org/easylistgermany.txt
 
-## 25: Energized Porn Block
-https://block.energized.pro/porn/formats/hosts.txt
+## 25: Sinfonietta Pornography block.
+https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts
 
 ## 26: Disconnect.me Tracking
 https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 
-## 27: DuckDuckGo Tracker Radar
-https://raw.githubusercontent.com/duckduckgo/tracker-radar/master/build-data/generated/hosts/trackers.txt
+## 27. StevenBlack Fake News + Gambling Combo
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts
 
 ## 28. URLHaus
 https://urlhaus.abuse.ch/downloads/hostfile/
