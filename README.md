@@ -1,24 +1,18 @@
-\# Pi-hole Configuration Repository
+\# 🛡️ Pi-hole Configuration \& Blocklists
 
 
 
-This repository contains my personal \*\*Pi-hole configuration\*\*, blocklists, and related setup notes.  
+!\[Pi-hole](https://img.shields.io/badge/Pi--hole-v5%2B-brightgreen?logo=pi-hole\&logoColor=white)
 
-It’s designed to provide \*\*network-wide ad-blocking\*\*, \*\*privacy protection\*\*, and \*\*malware defense\*\* using a curated collection of DNS blocklists.
+!\[Maintained](https://img.shields.io/badge/Maintained-Yes-blue)
 
-
-
----
+!\[Lists](https://img.shields.io/badge/Blocklists-30-red)
 
 
 
-\## 📌 Contents
+This repository contains my personal \*\*Pi-hole configuration\*\* and curated \*\*blocklists\*\*.  
 
-\- `adlists.list` → curated blocklists for Pi-hole
-
-\- Configuration notes \& tweaks
-
-\- References to additional resources
+It’s designed to provide \*\*network-wide ad blocking\*\*, \*\*privacy protection\*\*, and \*\*malware defense\*\*.  
 
 
 
@@ -26,17 +20,17 @@ It’s designed to provide \*\*network-wide ad-blocking\*\*, \*\*privacy protect
 
 
 
-\## 🚀 Features
+\## ✨ Features
 
-\- \*\*Comprehensive Ad Blocking\*\* → removes ads across websites, apps, and streaming platforms  
+✅ Blocks ads, trackers, and telemetry across the entire network  
 
-\- \*\*Privacy Protection\*\* → blocks trackers, telemetry, and analytics domains  
+✅ Protects against phishing, malware, and crypto-miners  
 
-\- \*\*Security Hardening\*\* → includes anti-phishing, anti-malware, and crypto-miner blocklists  
+✅ Includes optional lists for adult sites, fake news, gambling, and regional ads  
 
-\- \*\*Regional \& Niche Lists\*\* → optional lists for region-specific ads, adult content, fake news, gambling, and social media tracking  
+✅ Uses \*\*OISD\*\* + \*\*HaGeZi\*\* as core sources for high coverage \& low false-positives  
 
-\- \*\*Optimized Selection\*\* → avoids unnecessary overlap by using strong, well-maintained sources (OISD, HaGeZi, StevenBlack, Firebog, etc.)
+✅ Easy to import and update with `pihole -g`  
 
 
 
@@ -44,9 +38,37 @@ It’s designed to provide \*\*network-wide ad-blocking\*\*, \*\*privacy protect
 
 
 
-\## 📂 Blocklists in Use
+\## 📂 Blocklists Overview
 
-Here’s the full list of enabled sources:
+
+
+| Category        | Lists Used |
+
+|-----------------|------------|
+
+| 📰 \*\*General Ads \& Trackers\*\* | StevenBlack, AdAway, AdGuard, Admiral, EasyPrivacy, AnudeepND, GoodbyeAds, WaLLy3K |
+
+| 🛡️ \*\*Security \& Malware\*\* | Prigent (Ads \& Malware), CyberCrime Tracker, Dandelion Sprout Anti-Malware, URLHaus, HaGeZi Pro++, HaGeZi TIF |
+
+| 🔒 \*\*Privacy\*\* | WindowsSpyBlocker, Disconnect.me Tracking, Perflyst Android Tracking, NoTracking |
+
+| 🎯 \*\*Niche / Special\*\* | Facebook \& Instagram Tracking, Phishing Army, APWG Phishing, NoCoin, EasyList China \& Germany |
+
+| 🚫 \*\*Content Filtering\*\* | Sinfonietta Porn Block, StevenBlack Fake News + Gambling |
+
+
+
+---
+
+
+
+\## 📜 Full Blocklist Set
+
+
+
+<details>
+
+<summary>Click to expand (30 lists)</summary>
 
 
 
@@ -90,7 +112,7 @@ Here’s the full list of enabled sources:
 
 20\. \[Phishing Army](https://phishing.army/download/phishing\_army\_blocklist\_extended.txt)  
 
-21\. \[Anti-Phishing Working Group](https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt)  
+21\. \[APWG Phishing](https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt)  
 
 22\. \[NoCoin Miner Protection](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt)  
 
@@ -98,7 +120,7 @@ Here’s the full list of enabled sources:
 
 24\. \[EasyList Germany](https://easylist-downloads.adblockplus.org/easylistgermany.txt)  
 
-25\. \[Sinfonietta Pornography Block](https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts)  
+25\. \[Sinfonietta Porn Block](https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts)  
 
 26\. \[Disconnect.me Tracking](https://s3.amazonaws.com/lists.disconnect.me/simple\_tracking.txt)  
 
@@ -112,13 +134,19 @@ Here’s the full list of enabled sources:
 
 
 
+</details>
+
+
+
 ---
 
 
 
-\## ⚙️ Usage
+\## ⚙️ Setup
 
-Clone this repo to your Pi-hole server and import the blocklists:
+
+
+Clone this repo on your Pi-hole server:
 
 
 
