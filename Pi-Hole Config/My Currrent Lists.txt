@@ -69,3 +69,21 @@ https://easylist-downloads.adblockplus.org/easylistchina.txt
 
 ## 24. EasyList DE (German)
 https://easylist-downloads.adblockplus.org/easylistgermany.txt
+
+## 25: Energized Porn Block
+https://block.energized.pro/porn/formats/hosts.txt
+
+## 26: Disconnect.me Tracking
+https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+
+## 27: DuckDuckGo Tracker Radar
+https://raw.githubusercontent.com/duckduckgo/tracker-radar/master/build-data/generated/hosts/trackers.txt
+
+## 28. URLHaus
+https://urlhaus.abuse.ch/downloads/hostfile/
+
+## 29: HaGeZi Pro++
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.plus.txt
+
+## 30. TIF (Threat Intelligence Feeds aggregation)
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/tif.txt
