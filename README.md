@@ -1,21 +1,21 @@
 # 🛡️ Pi-hole Configuration & Blocklists
 
-![Pi-hole](https://img.shields.io/badge/Pi--hole-v5%2B-brightgreen?logo=pi-hole&logoColor=white)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-blue)
-![Lists](https://img.shields.io/badge/Blocklists-30-red)
+![Pi-hole](https://img.shields.io/badge/Pi--hole-v5%2B-brightgreen?logo=pi-hole&logoColor=white)  
+![Maintained](https://img.shields.io/badge/Maintained-Yes-blue)  
+![Blocklists](https://img.shields.io/badge/Blocklists-31+-red)  
+![Updates](https://img.shields.io/badge/Auto--Update-Every%205h-orange)  
 
-This repository contains my personal **Pi-hole configuration** and curated **blocklists**.  
-It’s designed to provide **network-wide ad blocking**, **privacy protection**, and **malware defense**.  
+This repository contains my **Pi-hole configuration** and carefully curated **blocklists**.  
+It’s optimized for **network-wide ad blocking**, **privacy protection**, and **malware defense** with minimal false positives.  
 
 ---
 
-
 ## ✨ Features
-- ✅ Blocks ads, trackers, and telemetry across the entire network  
-- 🛡️ Protects against phishing, malware, and crypto-miners  
-- 🎯 Includes optional lists for adult sites, fake news, gambling, and regional ads  
-- ⚡ Uses **OISD** + **HaGeZi** as core sources for high coverage & low false-positives  
-- 🔄 Easy to import and update with `pihole -g`  
+- ✅ Blocks ads, trackers, and telemetry across all devices  
+- 🛡️ Shields against phishing, malware, and cryptominers  
+- 🎯 Optional filters for adult sites, gambling, fake news & regional ads  
+- ⚡ Uses **OISD** + **HaGeZi** for maximum coverage with low breakage  
+- 🔄 Automatically refreshed every 5 hours with `pihole -g`  
 
 ---
 
@@ -25,6 +25,7 @@ It’s designed to provide **network-wide ad blocking**, **privacy protection**,
 - [StevenBlack Unified](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)  
 - [AdAway](https://adaway.org/hosts.txt)  
 - [AdGuard](https://v.firebog.net/hosts/AdguardDNS.txt)  
+- [AdGuard DNS Filter](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)  
 - [Admiral](https://v.firebog.net/hosts/Admiral.txt)  
 - [EasyPrivacy](https://v.firebog.net/hosts/Easyprivacy.txt)  
 - [AnudeepND Adservers](https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt)  
@@ -33,7 +34,7 @@ It’s designed to provide **network-wide ad blocking**, **privacy protection**,
 
 ---
 
-### 🛡️ Security & Malware
+### 🛡️ Security & Malware Protection
 - [Prigent Ads](https://v.firebog.net/hosts/Prigent-Ads.txt)  
 - [Prigent Malware](https://v.firebog.net/hosts/Prigent-Malware.txt)  
 - [CyberCrime Tracker](https://cybercrime-tracker.net/all.php)  
@@ -44,7 +45,7 @@ It’s designed to provide **network-wide ad blocking**, **privacy protection**,
 
 ---
 
-### 🔒 Privacy
+### 🔒 Privacy & Telemetry
 - [WindowsSpyBlocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)  
 - [Disconnect.me Tracking](https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt)  
 - [Perflyst Android Tracking](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt)  
@@ -52,7 +53,7 @@ It’s designed to provide **network-wide ad blocking**, **privacy protection**,
 
 ---
 
-### 🎯 Niche / Special
+### 🎯 Niche / Special Purpose
 - [Facebook & Instagram Tracking](https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all)  
 - [Phishing Army](https://phishing.army/download/phishing_army_blocklist_extended.txt)  
 - [APWG Phishing](https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt)  
@@ -62,6 +63,15 @@ It’s designed to provide **network-wide ad blocking**, **privacy protection**,
 
 ---
 
-### 🚫 Content Filtering
+### 🚫 Content Filtering (Optional)
 - [Sinfonietta Pornography Block](https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts)  
 - [StevenBlack Fake News + Gambling](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts)  
+
+---
+
+## ⚡ Installation
+
+Import the blocklists into Pi-hole with:
+
+```bash
+pihole -g
