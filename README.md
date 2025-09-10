@@ -75,3 +75,20 @@ Import the blocklists into Pi-hole with:
 
 ```bash
 pihole -g
+```
+
+### ⏰ Automatic Updates (Cron Setup)
+To keep your blocklists up to date every 5 hours, configure a cron job:
+
+1. Open the root crontab:
+```bash
+sudo crontab -e
+```
+
+2. Add the following line:
+```bash
+0 */5 * * * /usr/local/bin/pihole -g > /dev/null 2>&1
+```
+
+Save & exit.
+Cron will now run pihole -g at 00:00, 05:00, 10:00, 15:00, and 20:00 daily.
