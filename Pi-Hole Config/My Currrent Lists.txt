@@ -87,3 +87,6 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.plus.txt
 
 ## 30. TIF (Threat Intelligence Feeds aggregation)
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/tif.txt
+
+## 31. Adguard
+https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
